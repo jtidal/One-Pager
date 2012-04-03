@@ -9,12 +9,13 @@ jQuery(document).ready(function ($) {
 	$aboutPage.hide();
 
 //toggling all the content
-	var $header = $('.content-section').children('h2, img');
+	var $header = $('.content-section, #about-page, #locations-page').children('h2, img');
 		$('.content-section').children('.content').hide();
 		$header.css('cursor', 'pointer').click(function(){
 		$(this).parent().children('.content').slideToggle('100', function() {
   			});			
 		});
+		
 //reset
 		var $fullreset = $('.logotype');
 		var $resetButton = $('h2#reset');
