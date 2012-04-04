@@ -54,7 +54,7 @@
 ================================================== */
 	body {
 		background: url(texture3.png) #76A2AD;
-		font: 14px/21px "facitweb","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -67,11 +67,11 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
-		font-family:"facitweb", Arial, Helvetica, sans-serif;;
+		font-family: Arial, Helvetica, sans-serif;;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 23px;text-shadow: -2px 2px 3px #514E49;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49;font-family:"facitweb";font-weight: bold; 
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49;font-weight: bold; 
 	-webkit-transition-property: color;
 	-webkit-transition-duration: 0.1s;
 	-webkit-transition-timing-function:ease-in;
@@ -367,7 +367,6 @@ img.titles{margin:0 6px 6px 0;}
 img.events{width:100%;margin:0 20px 0 34px;}
 
 h1.logotype{
-	font-family: "facitweb";
 	color:#FFFCEE;
 	font-weight:bold;
 	font-size:5em;
@@ -466,7 +465,6 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 	
 	}
 	
-.footer a, .footer-links {font-family: "facitweb";}	
 	
 .footer a{color:#FFFCEE;}
 	
@@ -474,13 +472,13 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 .footer-logo{margin-right:10px;}
 .footer-links{margin-left:10px;}
 
-#header-links a {color:#FFFCEE;font-size: 20px;font-family: "facitweb";}
+#header-links a {color:#FFFCEE;font-size: 20px;}
 
 
 .ipad-stuff{display:none;}
 
 #searchbox{	
-	font-family: "facitweb";
+
 	border:0px solid #e3e3e3;
 	font-size:1.7em;
 	font-style:italic;
